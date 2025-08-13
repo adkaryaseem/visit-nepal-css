@@ -1,24 +1,11 @@
-main{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    font-family: Arial, sans-serif;
-}
-
-.left{
-    width: 20vw;
-    text-align: center;
-}
-
-.left-sec img{
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
-}
 .center{
     height: 90vh;
     width: 60vw;
     overflow-y: scroll;
+}
+
+.center>h2{
+    color: rgb(3, 3, 97);
 }
 
 .container{
@@ -27,18 +14,11 @@ main{
     color: blue;
 }
 
-.container img{
-    height: 200px;
-    width: 150px;
-}
-
-.right{
-    width: 20vw;
+.container figcaption{
     text-align: center;
 }
 
-.right-sec img{
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
+.container img{
+    height: 200px;
+    width: 150px;
 }
